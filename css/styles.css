@@ -517,3 +517,85 @@ body {
 	text-transform: uppercase;
 	color: #5c6f87;
 }
+
+/* few-reasons start */
+.few-reasons {
+	padding-top: 150px;
+	padding-bottom: 142px;
+	background-image: url(../images/few-reasons/few-reasons-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--light-black);
+}
+
+.few-reasons__inner {
+	max-width: 600px;
+	width: 100%;
+}
+
+.few-reasons__top {
+	display: flex;
+	align-items: center;
+	margin-bottom: 84px;
+}
+
+.few-reasons__top-line {
+	width: 3px;
+	height: 92px;
+	margin-right: 28px;
+	background-color: var(--light-blue);
+}
+
+.few-reasons__title {
+	font-family: var(--title-fontFamily);
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: 1px;
+}
+
+.few-reasons__title-blue {
+	font-family: var(--title-fontFamily);
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	color: var(--light-blue);
+}
+
+.few-reasons__item:not(:last-child) {
+	margin-bottom: 46px;
+}
+
+.few-reasons__item-title.active {
+	color: var(--light-blue);
+}
+
+.few-reasons__item-title {
+	color: #657991;
+	font-family: var(--title-fontFamily);
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 0.9;
+	letter-spacing: 1px;
+	margin-bottom: 38px;
+}
+
+.few-reasons__item-title3 {
+	color: #233142;
+	font-family: var(--title-fontFamily);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 1px;
+	margin-bottom: 28px;
+}
+
+.few-reasons__item-text {
+	color: #5c6f87;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0%;
+}
+/* few-reasons end */
