@@ -911,7 +911,51 @@ body {
 	text-transform: uppercase;
 }
 
-.our-news__right {
+.our-news__list {
 	max-width: 370px;
 	width: 100%;
+}
+
+.our-news__item:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.our-news__item-img-info {
+	width: 100%;
+	height: 247px;
+	background-image: url(../images/our-news/securty.png);
+	background-size: cover;
+}
+
+.our-news__item-img-info2 {
+	background-image: url(../images/our-news/new.png);
+}
+
+.our-news__item-info {
+	background-color: var(--light-black);
+	color: var(--white-color);
+	padding: 30px;
+}
+
+.our-news__item-title {
+	font-family: var(--title-fontFamily);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.our-news__item-inner {
+	display: flex;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 2;
+	letter-spacing: 0%;
+	text-transform: capitalize;
+}
+
+.our-news__item-inner h4 {
+	margin-right: 49px;
+	font-weight: 400;
 }
